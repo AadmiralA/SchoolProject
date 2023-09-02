@@ -1,0 +1,148 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.main_container{
+  margin-left:auto;
+	margin-right: auto;
+	width: 100%;
+	margin-bottom: 0px;
+}
+.header{
+	display: flex;
+	width: 100%;
+	background-color: #fff;
+	height: 70px;
+}
+.logo{
+	display: inline-flex;
+font-size: 30px;
+color: #445BD3;
+font-family: Quando;
+margin-left: 340px;
+}
+.logo p{
+	margin-top: 18px;
+}
+.logo a{
+	text-decoration: none;
+	color: #445BD3;
+}
+.logo img{
+	order: -1;
+	width: 70px;
+	margin-top: 5px;
+}
+.navig{
+	font-size: 21px;
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;	
+	margin-top: 25px;
+	margin-left: 210px;
+	font-family: arial;
+}
+.navig a:hover{
+	text-decoration: underline;
+}
+.navig a{
+	text-decoration: none;
+	color: #0A4BAD;
+	padding-left: 50px;
+}
+.main_block {
+	width: 100%;
+	height: 300px;
+	margin-top: 22%;
+}
+.main_column{
+	display:flex;
+	justify-content: space-between;
+	width: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: flex-end;
+}
+
+
+
+.text_block{
+	width: 100%;
+	height: 90px;
+	background-color: #1E3ACF;
+	font-family: Arial;
+	color: #FFF;	
+	font-weight: 600;
+	font-size: 22px;
+}
+.text_block div{
+	padding-top: 12px;
+}
+
+
+
+
+
+.marks_table{
+	width: 100%;
+	margin-top: 60px;
+	font-family: Quando;
+	display: flex;
+	justify-content: center;
+}
+.marks_table_main{
+	width: 80%;
+	font-weight: 600;
+	color: #fff;
+	font-size: 20px;
+	background-color: #445BD3;
+	border-spacing: 0px;
+}
+.marks_table_main td{
+	padding-left: 8px;
+}
+.fio{
+	width: 15%;
+}
+.count_five{
+	width: 15%;
+}
+.child_1, .child_2, .child_3,
+.child_4, .child_5{
+	width: 14%;
+}
+.lol{
+	color: #1E3ACF;
+	background-color: #fff;
+}
+
+
+
+.end{
+	color: #1E3ACF;
+	align-self: center;
+	font-size: 22px;
+	font-family: Arial;
+	font-weight: 600;
+	margin-top: 30px;
+}
+
+
+
+
+
+@font-face {
+font-family: "Quando"; 
+src: url("../fonts/KohSantepheap-Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+@font-face {
+font-family: "Tonk"; 
+src: url("../fonts/Copperplate Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
